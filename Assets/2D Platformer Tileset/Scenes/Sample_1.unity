@@ -13268,7 +13268,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 700198015, guid: 788b050f8015afb478bf6c88e0f86c52, type: 3}
   m_PrefabInstance: {fileID: 1333371502}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1813440219}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f6100bc35f9d344fbd5f5a2810dc5e1, type: 3}
@@ -13691,10 +13691,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 776504955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f4a3fc4b9ce6dc4b84831bd91a3217e, type: 3}
+  m_Script: {fileID: 11500000, guid: 072f0cf753cbc6b4285cff310ef2e233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 700198015}
+  playerStamina: {fileID: 1813440220}
   totalHeathbar: {fileID: 66747826}
   currentHeathbar: {fileID: 1334339537}
 --- !u!1 &811471938
@@ -19000,6 +19000,25 @@ Transform:
   m_Father: {fileID: 36887423}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1813440219 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8998690132748330165, guid: 788b050f8015afb478bf6c88e0f86c52, type: 3}
+  m_PrefabInstance: {fileID: 1333371502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1813440220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813440219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171e4200e4d407d4bac72fa545e7bab2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stamina_Chargespeed: 0.4
+  stamina_Dischargespeed: 1
 --- !u!1 &1819392360
 GameObject:
   m_ObjectHideFlags: 0

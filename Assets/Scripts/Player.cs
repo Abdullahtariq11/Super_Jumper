@@ -8,13 +8,16 @@ public class Player : MonoBehaviour
     private CapsuleCollider2D Player_feets;
     private Animator Player_anim;
     private Health player_health;
+    private Stamina player_stamina;
 
     [SerializeField] float Speed;
     [SerializeField] float JumpForce;
     private float direction;
     private bool isGrounded;
+    private int counter = 0;
+    private bool stamina_bool;
 
- 
+
 
     void Awake()
     {
@@ -22,6 +25,8 @@ public class Player : MonoBehaviour
         Player_feets = GetComponent<CapsuleCollider2D>();
         Player_anim = GetComponent<Animator>();
         player_health = GetComponent<Health>();
+        player_stamina = GetComponent<Stamina>();
+        stamina_bool = false;
     }
 
    
@@ -29,6 +34,9 @@ public class Player : MonoBehaviour
     {
         Run();  
         Jump();
+        playerTransform();
+
+
 
     }
 
@@ -96,6 +104,28 @@ public class Player : MonoBehaviour
             player_health.take_damage(1);
 
         }
+    }
+
+    private void playerTransform()
+    {
+       
+        if (player_stamina.current_stamina== player_stamina.starting_stamina && Input.GetKeyDown(KeyCode.LeftShift)&&counter==0)
+        {
+
+            counter= 1;
+            Player_anim.SetLayerWeight(0, 0);
+            Player_anim.SetLayerWeight(1, 1);
+            stamina_bool = true;
+        }
+        else if(Input.GetKeyDown(KeyCode.LeftShift) && counter == 1 || player_stamina.current_stamina <= 0)
+        {
+            counter = 0;
+            Player_anim.SetLayerWeight(1, 0);
+            Player_anim.SetLayerWeight(0, 1);
+            stamina_bool = false;
+        }
+        player_stamina.staminaChange(stamina_bool);
+        //Player_anim.SetLayerWeight(1,0);           //first parameter is layer id means first layer or second layer and second parameter is the weight
     }
 
 

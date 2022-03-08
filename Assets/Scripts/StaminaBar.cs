@@ -7,17 +7,17 @@ public class StaminaBar : MonoBehaviour
 {
     
     
-        [SerializeField] private Health playerHealth;
+        [SerializeField] private Stamina playerStamina;
         [SerializeField] private Image totalHeathbar;
         [SerializeField] private Image currentHeathbar;
         void Start()
         {
-            totalHeathbar.fillAmount = playerHealth.current_health / 10;
+            totalHeathbar.fillAmount = playerStamina.current_stamina / 10;
         }
 
 
         void Update()
         {
-            currentHeathbar.fillAmount = playerHealth.current_health / 10;
+            currentHeathbar.fillAmount = playerStamina.current_stamina / 10;
         }
     }

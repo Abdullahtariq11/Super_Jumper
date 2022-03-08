@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2021.2.12f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker6
 -projectPath
 C:/Users/abdul/Super Jumper
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker6.log
 -srvPort
 56466
 Successfully changed project path to: C:/Users/abdul/Super Jumper
@@ -47,7 +47,7 @@ C:/Users/abdul/Super Jumper
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 43.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.12f1 (48b1aa000234)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/Resources/UnitySubsystems
@@ -63,37 +63,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006086 seconds.
+Registered in 0.005826 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.452 seconds
+- Completed reload, in  0.476 seconds
 Domain Reload Profiling:
-	ReloadAssembly (452ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (477ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (309ms)
-			LoadAssemblies (54ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (327ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (79ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (177ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (185ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
+				RefreshPlugins (44ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadAttributes (98ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,36 +101,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004395 seconds.
+Registered in 0.004145 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
+- Completed reload, in  1.188 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1158ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (1188ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (979ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1010ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (705ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (732ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (569ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (597ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -138,12 +138,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2493 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (129.1 KB). Loaded Objects now: 2956.
 Memory consumption went from 115.9 MB to 115.8 MB.
-Total: 2.712900 ms (FindLiveObjects: 0.191900 ms CreateObjectMapping: 0.062000 ms MarkObjects: 2.384000 ms  DeleteObjects: 0.074100 ms)
+Total: 5.022600 ms (FindLiveObjects: 0.229500 ms CreateObjectMapping: 0.090000 ms MarkObjects: 4.600600 ms  DeleteObjects: 0.100400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,58 +157,46 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 998958.354720 seconds.
-  path: Assets/player animation/player_animator.controller
-  artifactKey: Guid(ad1444b84f2ca624b94a2cecaaf059cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/player animation/player_animator.controller using Guid(ad1444b84f2ca624b94a2cecaaf059cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174923289b9e3c670cbd881ffd00e0c4') in 0.025467 seconds 
+  Time since last request: 1000047.655750 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_1/player_sword_attack1_0.png
+  artifactKey: Guid(b94c2dbfb1708b14185135e04dfd8e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_1/player_sword_attack1_0.png using Guid(b94c2dbfb1708b14185135e04dfd8e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5d45ab38c10403e3cdd7e8ab1e0054') in 0.110016 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 611.027648 seconds.
-  path: Assets/2D Platformer Tileset/Sprites
-  artifactKey: Guid(7e6657651a0203d4cba66b3fddefcb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites using Guid(7e6657651a0203d4cba66b3fddefcb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7eedc3e90e82b2a44295a581951488d') in 0.001978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.317896 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character
-  artifactKey: Guid(502486000b9b8b14886c4c531f06e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character using Guid(502486000b9b8b14886c4c531f06e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74086cf447cf68c67401698d91c1e190') in 0.001834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.670874 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword
-  artifactKey: Guid(6cac859a2e2b8f94e8938959e5d28218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword using Guid(6cac859a2e2b8f94e8938959e5d28218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60212bb2aff23bab1e8a548ca717f769') in 0.001833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.326978 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle
-  artifactKey: Guid(3055f30809b725c4a9d914e6183cd3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle using Guid(3055f30809b725c4a9d914e6183cd3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7b1b1d83cabfe39f51f8b39ac1b560') in 0.001962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.075321 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle/player_sword_idle_0.png
-  artifactKey: Guid(423177b1411ba2b4f9852dfb3a65948e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle/player_sword_idle_0.png using Guid(423177b1411ba2b4f9852dfb3a65948e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7ed621de776777b31a1cc013bff888') in 0.087015 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_1/player_sword_attack1_4.png
+  artifactKey: Guid(21ab69373faf83444a949dde1091d035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_1/player_sword_attack1_4.png using Guid(21ab69373faf83444a949dde1091d035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1807a2c4ae33f10f459a63b20910d2e') in 0.015267 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle/player_sword_idle_2.png
-  artifactKey: Guid(f2eb9a755ab96cf499b88bf4aee7dae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle/player_sword_idle_2.png using Guid(f2eb9a755ab96cf499b88bf4aee7dae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f559383f78440d38924a112f6793195') in 0.018317 seconds 
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_1/player_sword_attack1_5.png
+  artifactKey: Guid(500ef1fffb0409b4181c8141311ba024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_1/player_sword_attack1_5.png using Guid(500ef1fffb0409b4181c8141311ba024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8226393c2160c5e452ab13178f4fe2') in 0.016274 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle/player_sword_idle_3.png
-  artifactKey: Guid(c9071fa5e4563964fb640e87db346ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle/player_sword_idle_3.png using Guid(c9071fa5e4563964fb640e87db346ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1458c3f116b9196b2952bdc87010842') in 0.012815 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_1/player_sword_attack1_7.png
+  artifactKey: Guid(aff72c650f4121749bcabc777ef50c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_1/player_sword_attack1_7.png using Guid(aff72c650f4121749bcabc777ef50c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44727f64077c20efcfa916d627665b6') in 0.019180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.972140 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_2/player_sword_attack2_1.png
+  artifactKey: Guid(542fb0f478e52d2489d82e5de5730dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_2/player_sword_attack2_1.png using Guid(542fb0f478e52d2489d82e5de5730dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8aff35aad757697008d539f817b0238') in 0.025398 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle/player_sword_idle_5.png
-  artifactKey: Guid(38a08beff0b47174faa3229822687623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/idle/player_sword_idle_5.png using Guid(38a08beff0b47174faa3229822687623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c7c2d2544006cc81b9f455663cbbd9') in 0.013204 seconds 
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_2/player_sword_attack2_7.png
+  artifactKey: Guid(3987c83193e46d340ac3f4b71ebe30c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_2/player_sword_attack2_7.png using Guid(3987c83193e46d340ac3f4b71ebe30c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21393c1cac2cd72228d0c0787a55473c') in 0.016506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_2/player_sword_attack2_5.png
+  artifactKey: Guid(ab43dddabf17196489a0a43a028c5219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/attack_2/player_sword_attack2_5.png using Guid(ab43dddabf17196489a0a43a028c5219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284fc44d2cc231e75bed8ad2a80948c4') in 0.015603 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
