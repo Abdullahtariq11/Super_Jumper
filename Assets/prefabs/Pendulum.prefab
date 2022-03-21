@@ -124,7 +124,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.026664734, y: 1.9335117}
-  m_ConnectedAnchor: {x: 93.49168, y: -12.761837}
+  m_ConnectedAnchor: {x: 74.829704, y: -18.122625}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 2194828486904680509}
   m_Layer: 0
   m_Name: Pendulum
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

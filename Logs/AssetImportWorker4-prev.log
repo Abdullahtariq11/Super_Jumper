@@ -15,7 +15,7 @@ C:/Users/abdul/Super Jumper
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-56466
+55652
 Successfully changed project path to: C:/Users/abdul/Super Jumper
 C:/Users/abdul/Super Jumper
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/abdul/Super Jumper
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 47.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 51.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.12f1 (48b1aa000234)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/Resources/UnitySubsystems
@@ -63,87 +63,87 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006583 seconds.
+Registered in 0.005083 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.464 seconds
+- Completed reload, in  0.492 seconds
 Domain Reload Profiling:
-	ReloadAssembly (465ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (493ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (318ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (353ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (180ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (206ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
+				RefreshPlugins (49ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004693 seconds.
+Registered in 0.004558 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
+- Completed reload, in  1.221 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1168ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (1222ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (989ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (1041ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (714ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (760ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (575ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (618ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2493 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (129.1 KB). Loaded Objects now: 2956.
-Memory consumption went from 115.9 MB to 115.8 MB.
-Total: 2.697800 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.146300 ms MarkObjects: 2.286900 ms  DeleteObjects: 0.072600 ms)
+Unloading 2495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (129.1 KB). Loaded Objects now: 2958.
+Memory consumption went from 116.4 MB to 116.3 MB.
+Total: 2.611700 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.061100 ms MarkObjects: 2.300900 ms  DeleteObjects: 0.072600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,40 +157,814 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 999855.463970 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/jump/player_sword_fall.png
-  artifactKey: Guid(de65c4da80a80af41b3763338ee47b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/jump/player_sword_fall.png using Guid(de65c4da80a80af41b3763338ee47b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aa35c1a5aa07b976f4ab065ec0465d') in 0.108944 seconds 
+  Time since last request: 1773358.203858 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bat/hang/bat_hang_5.png
+  artifactKey: Guid(2528c19c2346d7048b1a003605d9d332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bat/hang/bat_hang_5.png using Guid(2528c19c2346d7048b1a003605d9d332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e2384e0970124d361c2188f6524d58') in 0.089010 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 77.077070 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_00.png
-  artifactKey: Guid(113ffcb4666fbe64cb8d1931254c6018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_00.png using Guid(113ffcb4666fbe64cb8d1931254c6018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a21d83753258e4bf063665b15a44f40') in 0.016358 seconds 
+  Time since last request: 0.257860 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bat/bat_ooh_r.png
+  artifactKey: Guid(c20fe29326c8b244886cdc1b17acd02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bat/bat_ooh_r.png using Guid(c20fe29326c8b244886cdc1b17acd02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25943966d68ef366891529a2e0c842d0') in 0.023591 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_04.png
-  artifactKey: Guid(131fefc4e50a2fb4eacb4d97554cee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_04.png using Guid(131fefc4e50a2fb4eacb4d97554cee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3231d5d7cf6ae059c82a788f76b8f0') in 0.025613 seconds 
+  Time since last request: 0.022020 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Crow/beak2.png
+  artifactKey: Guid(1e5e2496a5b451b408fbc49fbd487351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Crow/beak2.png using Guid(1e5e2496a5b451b408fbc49fbd487351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73777376dd2d73f7aeb6c91181eb504c') in 0.012017 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_03.png
-  artifactKey: Guid(c7acadf6d48360d4191d1b10166521e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_03.png using Guid(c7acadf6d48360d4191d1b10166521e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed49850b099f343cfe419ec1883be3ca') in 0.051591 seconds 
+  Time since last request: 0.262295 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_01.png
+  artifactKey: Guid(0ddb32a3979acfc4c923638fc8584f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_01.png using Guid(0ddb32a3979acfc4c923638fc8584f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da09c43398415519901f592a0a618ff7') in 0.032611 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_05.png
-  artifactKey: Guid(18f3786477bf0554da04d618a7ce9269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_05.png using Guid(18f3786477bf0554da04d618a7ce9269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8af162d618bb11d14720bbd89e85dbf') in 0.016535 seconds 
+  Time since last request: 0.015636 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_05.png
+  artifactKey: Guid(c789c61f8474ea949a357d56f6a1225d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_05.png using Guid(c789c61f8474ea949a357d56f6a1225d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca03e48447e113b685c0f09c5c10b76') in 0.026205 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_02.png
-  artifactKey: Guid(a68729781ccba3148990ad4da4809082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player Sword/die/player_sword_die_02.png using Guid(a68729781ccba3148990ad4da4809082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796b481d80533e714699dc3d8c09455f') in 0.013771 seconds 
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_09.png
+  artifactKey: Guid(486c135d756d5454cb12f935fe2a6795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_09.png using Guid(486c135d756d5454cb12f935fe2a6795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c433355210e484a9d0ec94ade9c04') in 0.036143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.235111 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_11.png
+  artifactKey: Guid(7ba7e10fd466fc64a94e2b8759741c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_11.png using Guid(7ba7e10fd466fc64a94e2b8759741c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fabc830c3c63411da29fff429bacd4') in 0.012782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008823 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_body.png
+  artifactKey: Guid(0820315a65dac00428e095fd9e6a8b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_body.png using Guid(0820315a65dac00428e095fd9e6a8b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f2e34d08c3f6e04a7187c4082a74d3') in 0.010595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010070 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_01.png
+  artifactKey: Guid(2a879cfa4c4642348a9caf51623104bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_01.png using Guid(2a879cfa4c4642348a9caf51623104bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217c41486eedbb1a4f21d9ab9bde1e58') in 0.017490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.279186 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_05.png
+  artifactKey: Guid(176b5c6df23264a4aa953b24f9bf62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_05.png using Guid(176b5c6df23264a4aa953b24f9bf62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d42a81b53adacb56f68987411b3072') in 0.026802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014055 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_head.png
+  artifactKey: Guid(cd6e8365d308c3845bb2b4b40d246200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_head.png using Guid(cd6e8365d308c3845bb2b4b40d246200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7a6a7639b167d7464dd0c324289a0f') in 0.014009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004150 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_00.png
+  artifactKey: Guid(24978e4d8f59f9c4098f826e3e79c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_00.png using Guid(24978e4d8f59f9c4098f826e3e79c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebdc2096a7cc26ce2b8fb1a97b8a7d4') in 0.011617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.246053 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_02.png
+  artifactKey: Guid(a2b7f6d9cf70a3e46a3b45dab70fc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_02.png using Guid(a2b7f6d9cf70a3e46a3b45dab70fc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac4be07ee7dfc240fd2a3d978b15578') in 0.023490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_05.png
+  artifactKey: Guid(0002203eab9f272419f79a558ffe36c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_05.png using Guid(0002203eab9f272419f79a558ffe36c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60326f27e8f05bda9f4925fa11fe3ccf') in 0.011932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008738 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_06.png
+  artifactKey: Guid(c23ed2b5bccd810428de437766d4540c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_06.png using Guid(c23ed2b5bccd810428de437766d4540c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6451a3ff0c7c84ed80ee36bc27e7e048') in 0.012713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_leg1_r.png
+  artifactKey: Guid(54344e3d11010ab4db13928976e301b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_leg1_r.png using Guid(54344e3d11010ab4db13928976e301b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3bd3d7c4666923071afd699be92b9a') in 0.012181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.258673 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_leg2_l.png
+  artifactKey: Guid(d7eec3a87e26fc94d8b735d231ffc733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_leg2_l.png using Guid(d7eec3a87e26fc94d8b735d231ffc733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba18bbe01a12dd0575a302fc1fa5058') in 0.023092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020733 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_02.png
+  artifactKey: Guid(e286fd3c0f9e28945a1c9dc85cf4c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_02.png using Guid(e286fd3c0f9e28945a1c9dc85cf4c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413af5f9328a294fd1fa131f743d99c6') in 0.012258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.283367 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_06.png
+  artifactKey: Guid(e87869553b5977048b230eeb0a52d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_06.png using Guid(e87869553b5977048b230eeb0a52d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e40cb2c1f3b91e4c2a59c2fdab4435') in 0.012893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_tendril_l.png
+  artifactKey: Guid(90474dfefc2081d40b33ee035ac69107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_tendril_l.png using Guid(90474dfefc2081d40b33ee035ac69107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b855395c765ee1d47edd8ff7c21cb98d') in 0.011402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016591 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_tendril_r.png
+  artifactKey: Guid(d5ca6fa19b9602d419fc7fd755a3cb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Bee/bee_tendril_r.png using Guid(d5ca6fa19b9602d419fc7fd755a3cb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545e9ec40e33e5f33f348cfb2927c6f9') in 0.009143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.685216 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Beckgrounds/Snow_Background/bg_snow_1.png
+  artifactKey: Guid(92c1acb1606f4ec4c87af621e20065cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Beckgrounds/Snow_Background/bg_snow_1.png using Guid(92c1acb1606f4ec4c87af621e20065cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8144ac44b9a6952696e57c8b3c4454f') in 0.098172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Beckgrounds/Snow_Background/bg_snow_4.png
+  artifactKey: Guid(6a229194e3807ed4fa5d3b2c653517a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Beckgrounds/Snow_Background/bg_snow_4.png using Guid(6a229194e3807ed4fa5d3b2c653517a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b68b9712ff47d7f6cd43d4e5b02df1') in 0.067588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.238143 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Beckgrounds/Snow_Background/bg_snow_5.png
+  artifactKey: Guid(f60c645e8fe55954eb6e442d8fe0f42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Beckgrounds/Snow_Background/bg_snow_5.png using Guid(f60c645e8fe55954eb6e442d8fe0f42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6608c8cba22038303652082e859ae552') in 0.066540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.281645 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/attack/big_boar_attack_07.png
+  artifactKey: Guid(c97bbd54bcea0444f8a64c13595b7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/attack/big_boar_attack_07.png using Guid(c97bbd54bcea0444f8a64c13595b7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161091b744adb94f28116a75953266a9') in 0.014586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021873 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/die/big_boar_die_1.png
+  artifactKey: Guid(20c807fde51129b4f8771756d87540e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/die/big_boar_die_1.png using Guid(20c807fde51129b4f8771756d87540e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3545f231eef16d57010dff1d44200181') in 0.013031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/die/big_boar_die_4.png
+  artifactKey: Guid(eefce9d692fffcb4684e2d48ea9d676d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/die/big_boar_die_4.png using Guid(eefce9d692fffcb4684e2d48ea9d676d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17682ffb73dc8c55568900253323a104') in 0.012087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.274266 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/die/big_boar_die_5.png
+  artifactKey: Guid(12ac04292e8b59249bb37f72c1ed8ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/die/big_boar_die_5.png using Guid(12ac04292e8b59249bb37f72c1ed8ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f17b5b8f646b2a7d61756c426b2ac76') in 0.022882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_00.png
+  artifactKey: Guid(d106d45e34516e045bb8c5ed0fd22916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_00.png using Guid(d106d45e34516e045bb8c5ed0fd22916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe4b65e3138c3d57269bf9744aad55b') in 0.011153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006983 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_01.png
+  artifactKey: Guid(30d222a0ba6705e43a8b532e789d42e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_01.png using Guid(30d222a0ba6705e43a8b532e789d42e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5763099a9199c072595fd1615f5f9674') in 0.013286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.270782 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_03.png
+  artifactKey: Guid(62b6bd800b56de645996033dbf12914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_03.png using Guid(62b6bd800b56de645996033dbf12914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de31936e9ed8d43c10e9db4b6f0b3aed') in 0.023706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_06.png
+  artifactKey: Guid(ca354a19bcd6b0946937b8c73f7fdfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_06.png using Guid(ca354a19bcd6b0946937b8c73f7fdfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d629bf719fdb22bee14a16fdb6f018') in 0.012689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006709 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_07.png
+  artifactKey: Guid(d6d46212e6b6b4844b3a8e2ee123118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/idle/big_boar_idle_07.png using Guid(d6d46212e6b6b4844b3a8e2ee123118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39713a3890a79cb62b5482c382b16c0') in 0.012290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_00.png
+  artifactKey: Guid(a487b55ccfedc134ea5ed29ce071bb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_00.png using Guid(a487b55ccfedc134ea5ed29ce071bb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046711a1b9f3e8bf17c3c9e371032b7c') in 0.015537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.271935 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_01.png
+  artifactKey: Guid(dea70fc964d628d479fe2b8ccf950fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_01.png using Guid(dea70fc964d628d479fe2b8ccf950fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9135f9444c232bbf326ac18ab5ed1b23') in 0.014001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_04.png
+  artifactKey: Guid(f0d7d4decbcf1ae4d96ff67efc1d1c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_04.png using Guid(f0d7d4decbcf1ae4d96ff67efc1d1c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8c61e6fc7de3578fcc6f31df715407') in 0.013119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_05.png
+  artifactKey: Guid(59289cb5955f2f84db7c582e88c3ba33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_05.png using Guid(59289cb5955f2f84db7c582e88c3ba33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269ad89ea2739d817c19c4ef5e761925') in 0.012630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019088 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_07.png
+  artifactKey: Guid(823a1e371741db74da8836999480a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_07.png using Guid(823a1e371741db74da8836999480a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94629960e4d76b1ba5638287ed0b86d') in 0.013014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.256363 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_09.png
+  artifactKey: Guid(d16031a014768834398011fcbf533bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/run/big_boar_run_09.png using Guid(d16031a014768834398011fcbf533bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a15398d95662a0ee08d6428f51e4a8a') in 0.024329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/walk/big_boar_walk_04.png
+  artifactKey: Guid(a32ee239736cdfa4d83c9dfb50c4aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/walk/big_boar_walk_04.png using Guid(a32ee239736cdfa4d83c9dfb50c4aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeb2838386ea1d1ec0c9d69f8a868e2') in 0.013077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019259 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/walk/big_boar_walk_05.png
+  artifactKey: Guid(ee1440d736201d941b87dacfdb84abcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/walk/big_boar_walk_05.png using Guid(ee1440d736201d941b87dacfdb84abcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060e6656e9e4455aaa9932e4bfdd2d6a') in 0.018022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.265741 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/walk/big_boar_walk_07.png
+  artifactKey: Guid(123dc16f1d7535b44b9cd265bc3a0b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/walk/big_boar_walk_07.png using Guid(123dc16f1d7535b44b9cd265bc3a0b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b86efd7654a3a511e9d258f67bbfb1e') in 0.024230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013711 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/walk/big_boar_walk_11.png
+  artifactKey: Guid(49570de845ff53d499c5eded294d0020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Big Boar/walk/big_boar_walk_11.png using Guid(49570de845ff53d499c5eded294d0020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34802117f6ea5577e7a993174105a440') in 0.023081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.274261 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Bird/bird_leg_r.png
+  artifactKey: Guid(8955bcc9d83cbf04a9107b3c748b412d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Bird/bird_leg_r.png using Guid(8955bcc9d83cbf04a9107b3c748b412d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e14ffb5f3c439a527f9754c2ca86a92') in 0.014334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015268 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Bird/bird_wing1_l.png
+  artifactKey: Guid(bd41efa925ea6a848a7460dd46fd3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Bird/bird_wing1_l.png using Guid(bd41efa925ea6a848a7460dd46fd3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11eecad6786d87bc0e6d10e3a74627ae') in 0.014486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014488 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/attack/boar_attack_00.png
+  artifactKey: Guid(4d838ab21f398d640936d96b1c753899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/attack/boar_attack_00.png using Guid(4d838ab21f398d640936d96b1c753899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c79abb0647c30600264049bd612f2c7') in 0.027377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.260731 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/attack/boar_attack_02.png
+  artifactKey: Guid(c20723225a1d0614cbd2387bd49d089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/attack/boar_attack_02.png using Guid(c20723225a1d0614cbd2387bd49d089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf911d03b08367f4cd2fa68965a107d1') in 0.013739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025929 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/attack/boar_attack_06.png
+  artifactKey: Guid(d7368149b3484a34baf147348567bdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/attack/boar_attack_06.png using Guid(d7368149b3484a34baf147348567bdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821ff4351cd3f03ece6f69176715fdb7') in 0.019703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267535 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Big Boar/boar_body.png
+  artifactKey: Guid(aaaf6db09eb863c4b921f770c917b8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Big Boar/boar_body.png using Guid(aaaf6db09eb863c4b921f770c917b8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4715d83a980b4b9b8e9c8b97105be1') in 0.024107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012783 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/die/boar_die_3.png
+  artifactKey: Guid(3174dbfc6d4602849a60e627d8530982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/die/boar_die_3.png using Guid(3174dbfc6d4602849a60e627d8530982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2a3f38141d09ae3be84aaf819299bd') in 0.011516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.279093 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/die/boar_die_5.png
+  artifactKey: Guid(1f6e9bf210faf724998d7528dac839f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/die/boar_die_5.png using Guid(1f6e9bf210faf724998d7528dac839f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adbfd79e0d16e4786db76688808c0e7') in 0.023288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Big Boar/boar_ear_l.png
+  artifactKey: Guid(ffc6ed4e8c8034f46b19dfee2a60fdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Big Boar/boar_ear_l.png using Guid(ffc6ed4e8c8034f46b19dfee2a60fdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab1820eb03bf6ace177dd3bba06a4b0') in 0.009649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008182 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Big Boar/boar_ear_r.png
+  artifactKey: Guid(27c74e9955e85d649a80519478f698bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Big Boar/boar_ear_r.png using Guid(27c74e9955e85d649a80519478f698bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96653a098d077e8c7ace7874bc6c4f8d') in 0.009838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/idle/boar_idle_1.png
+  artifactKey: Guid(557f4a45fd0021c499cc055747bb6434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/idle/boar_idle_1.png using Guid(557f4a45fd0021c499cc055747bb6434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a2434399b2994a32a5c33030a54f4b') in 0.011582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.248955 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/idle/boar_idle_2.png
+  artifactKey: Guid(ba3ceda83f9d9574681dd770ea0a3f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/idle/boar_idle_2.png using Guid(ba3ceda83f9d9574681dd770ea0a3f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98049552719a22554013e5c909b06cdb') in 0.011605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010129 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/idle/boar_idle_4.png
+  artifactKey: Guid(d508455dbe917e34fbb38e915cd7509f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/idle/boar_idle_4.png using Guid(d508455dbe917e34fbb38e915cd7509f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9ef5cb03d2bf35610e47625c379a99') in 0.011418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/idle/boar_idle_7.png
+  artifactKey: Guid(2adcba0031ee2f0408f7fe708ab1c657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/idle/boar_idle_7.png using Guid(2adcba0031ee2f0408f7fe708ab1c657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafe8600625ee6d0fc6ceef82923c43f') in 0.012773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.045157 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/run/boar_run_02.png
+  artifactKey: Guid(c58805a87b331a24295f850ac7746f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/run/boar_run_02.png using Guid(c58805a87b331a24295f850ac7746f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646d4c00a9899b6d793a7f4a7a51ede9') in 0.020785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/walk/boar_walk_06.png
+  artifactKey: Guid(6996fdf4df745084caff58d1a354d49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/walk/boar_walk_06.png using Guid(6996fdf4df745084caff58d1a354d49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd07cf2f51c587ed2f9ee662e4319ae') in 0.012929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Crow/body.png
+  artifactKey: Guid(df74507ed0f9eae4985f6761d7fe354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Crow/body.png using Guid(df74507ed0f9eae4985f6761d7fe354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2354a8ec0e2bf28c10876b4c2e754259') in 0.014063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_arm_r.png
+  artifactKey: Guid(480c19b22bbb9d64da615baca470e45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_arm_r.png using Guid(480c19b22bbb9d64da615baca470e45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a53a39e25f626a48be6a7ca9cf3f61') in 0.015360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boar/body.png
+  artifactKey: Guid(454b0bac9d8edab4e9fdb8c05e5535cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boar/body.png using Guid(454b0bac9d8edab4e9fdb8c05e5535cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f51b9db6f87f5d38284d52ffe9bd6b') in 0.013238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_pelvis.png
+  artifactKey: Guid(a1121ecb12af61a45bbca87d3efbb3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_pelvis.png using Guid(a1121ecb12af61a45bbca87d3efbb3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0deb9f998f35f573a6f936ed6f4a43') in 0.015306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_leg_l.png
+  artifactKey: Guid(8ff21d74c12bee841be5976110e3fc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_leg_l.png using Guid(8ff21d74c12bee841be5976110e3fc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a1aa8ec116cb60c4a47b153334889b') in 0.012861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/run/boar_run_08.png
+  artifactKey: Guid(d3c8eba64ec55ad47a9f4ffa792b65b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/run/boar_run_08.png using Guid(d3c8eba64ec55ad47a9f4ffa792b65b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afdc8935c4283e0c73f0f5c2b9cab1d') in 0.013733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_weapon.png
+  artifactKey: Guid(be5741c619df8f845a96308c286cad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_weapon.png using Guid(be5741c619df8f845a96308c286cad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d7f5394ecb5ae20a41df52e10492cf') in 0.020160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.380631 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_head_die.png
+  artifactKey: Guid(d376d5c271a32524b83443d38df523f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boss/boss_head_die.png using Guid(d376d5c271a32524b83443d38df523f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e201ea73d6e0b2c7c952cc421cdbdc73') in 0.022100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053407 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Boar/run/boar_run_00.png
+  artifactKey: Guid(eac87f4cca0078b468abca3c02f854b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Boar/run/boar_run_00.png using Guid(eac87f4cca0078b468abca3c02f854b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6292b4c5a27ee84a6c34633990831e81') in 0.012312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.423766 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Stats/character_hp_bar_bg.png
+  artifactKey: Guid(9fd4dd6fc2459b149b1b449d4df06294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Stats/character_hp_bar_bg.png using Guid(9fd4dd6fc2459b149b1b449d4df06294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1cc8fcb873af39e91347438edb2cda') in 0.013179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Settings/Switch/checkbox_on.png
+  artifactKey: Guid(d5de41e695a0a774f9711a6ca1704a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Settings/Switch/checkbox_on.png using Guid(d5de41e695a0a774f9711a6ca1704a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be20d2e16ba5199978f3505d15e55e4') in 0.010647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.343763 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Animations/Bird/fly/fly_0.png
+  artifactKey: Guid(82c1076e9ca6c0c46b5691a2ecc8dd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Animations/Bird/fly/fly_0.png using Guid(82c1076e9ca6c0c46b5691a2ecc8dd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4000949493bb95eb4cde40f7f3acbcaf') in 0.035343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Animations/Bird/fly/fly_2.png
+  artifactKey: Guid(f116c2db2a5f7ba4cb6ea04b438e6135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Animations/Bird/fly/fly_2.png using Guid(f116c2db2a5f7ba4cb6ea04b438e6135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b4e9d695761f9af8bf7c983245e5af') in 0.016198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024139 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Animations/Crow/fly/fly_5.png
+  artifactKey: Guid(d9c5f7c7e6487ff4a9a9114987ef2cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Animations/Crow/fly/fly_5.png using Guid(d9c5f7c7e6487ff4a9a9114987ef2cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c3673e1226d113aba6de8a63cc94ae') in 0.011555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025006 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/attack/goblin_axe_attack_01.png
+  artifactKey: Guid(4061841db4b6fd341809a1399a49a7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/attack/goblin_axe_attack_01.png using Guid(4061841db4b6fd341809a1399a49a7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425ee2a1b68c4d235a7a98b4ef1d4b72') in 0.019051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/attack/goblin_axe_attack_08.png
+  artifactKey: Guid(24735f58ef2eba24da3ab40eb937f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/attack/goblin_axe_attack_08.png using Guid(24735f58ef2eba24da3ab40eb937f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0928492c6b7a5e804e263503a8f47c6') in 0.016918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024703 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/die/goblin_axe_die_00.png
+  artifactKey: Guid(d1fa079cd3fef2d4b8769f2d23234552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/die/goblin_axe_die_00.png using Guid(d1fa079cd3fef2d4b8769f2d23234552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748627ab46e3355eafd7f6232f96db5c') in 0.017009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/idle/goblin_axe_idle_0.png
+  artifactKey: Guid(0e3950437c1ce074fb6472a3ee893ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/idle/goblin_axe_idle_0.png using Guid(0e3950437c1ce074fb6472a3ee893ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3540bdc186368e7424e48abde2838062') in 0.018113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451676 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/idle/goblin_axe_idle_6.png
+  artifactKey: Guid(9a4470b3b92059040b51dcfae5835985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/idle/goblin_axe_idle_6.png using Guid(9a4470b3b92059040b51dcfae5835985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf98f0ff4fb3575df45bc384c551d16c') in 0.026016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Halberd/idle/goblin_halberd_idle_0.png
+  artifactKey: Guid(8b1ad580c0f10124d98a9e17ab7bcfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Halberd/idle/goblin_halberd_idle_0.png using Guid(8b1ad580c0f10124d98a9e17ab7bcfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9f9d6b1550a17a992bc499d3bd8f28') in 0.015268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Halberd/die/goblin_halberd_die_05.png
+  artifactKey: Guid(3e0996d7948634d4ca06eb62137e1b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Halberd/die/goblin_halberd_die_05.png using Guid(3e0996d7948634d4ca06eb62137e1b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78eab63af3553c5fd1df67ad05ec26a') in 0.014549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/run/goblin_axe_run_03.png
+  artifactKey: Guid(ca4c4586db7741546a0bf12ac148a8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/run/goblin_axe_run_03.png using Guid(ca4c4586db7741546a0bf12ac148a8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d706ea09c51f6b1ffea710c41e48e9') in 0.015599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/run/goblin_axe_run_06.png
+  artifactKey: Guid(7d8c802bb8c6363468f24d7744d2b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Axe/run/goblin_axe_run_06.png using Guid(7d8c802bb8c6363468f24d7744d2b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1af78ee2c2e3d281d598080a6f4b711') in 0.013978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.302167 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/attack/goblin_rider_attack_05.png
+  artifactKey: Guid(598ff8f58b90dfa40a809ed63b41d390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/attack/goblin_rider_attack_05.png using Guid(598ff8f58b90dfa40a809ed63b41d390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe375cc417d256b17ed832949d9d0b38') in 0.019763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/die/goblin_rider_die_3.png
+  artifactKey: Guid(6e37484890122f04981c6fb17fb62c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/die/goblin_rider_die_3.png using Guid(6e37484890122f04981c6fb17fb62c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cff5cab8890ae43a052c55d4c31b26') in 0.019303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039085 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/idle/goblin_rider_idle_01.png
+  artifactKey: Guid(46306693b4986454ead5d2f76f85d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/idle/goblin_rider_idle_01.png using Guid(46306693b4986454ead5d2f76f85d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8979abadb0adef45d7c54293eec52c1') in 0.013980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/idle/goblin_rider_idle_05.png
+  artifactKey: Guid(aa2f3709eb6162b4a8bbae9555a957a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/idle/goblin_rider_idle_05.png using Guid(aa2f3709eb6162b4a8bbae9555a957a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a435c001859f1d5df3a493224f33f203') in 0.019203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.278181 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/walk/goblin_rider_walk_07.png
+  artifactKey: Guid(45ba13303bee5804291554c70891012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Rider/walk/goblin_rider_walk_07.png using Guid(45ba13303bee5804291554c70891012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dadb0703cc23e035c6e8dfefaeb10e') in 0.016314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/attack/goblin_spear_attack_02.png
+  artifactKey: Guid(40cb7b4ce8a035d4c8b241ccc86a9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/attack/goblin_spear_attack_02.png using Guid(40cb7b4ce8a035d4c8b241ccc86a9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2a5ac6e16ca109ebede219345186dd') in 0.018970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/attack/goblin_spear_attack_11.png
+  artifactKey: Guid(3ab6a2b61ca647148a1e49bfe9ef2366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/attack/goblin_spear_attack_11.png using Guid(3ab6a2b61ca647148a1e49bfe9ef2366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a298dd6dd30ea28859fac14234e6a262') in 0.018701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/idle/goblin_spear_idle_1.png
+  artifactKey: Guid(fe16f4e553e6f6143a0b4186e51a318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/idle/goblin_spear_idle_1.png using Guid(fe16f4e553e6f6143a0b4186e51a318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2e1bccca2c71a71d76563358406adc') in 0.026436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/run/goblin_spear_run_07.png
+  artifactKey: Guid(1fd7d4161d4fb5840bf0d849877f6843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/run/goblin_spear_run_07.png using Guid(1fd7d4161d4fb5840bf0d849877f6843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb102db7d67f959bff7d4ce504fe315a') in 0.025578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/idle/goblin_spear_idle_0.png
+  artifactKey: Guid(ba4e9c2d888c868428a9e61942b6f12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/idle/goblin_spear_idle_0.png using Guid(ba4e9c2d888c868428a9e61942b6f12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb582cab291eed0e1c87e10e118d81cc') in 0.034718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/attack/goblin_spear_attack_10.png
+  artifactKey: Guid(d4a49820494c00645a142a0c2a263487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Goblin Spear/attack/goblin_spear_attack_10.png using Guid(d4a49820494c00645a142a0c2a263487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4012b6fe62f68176875b80aea03bd265') in 0.023121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.270678 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Goblins/halberd3.png
+  artifactKey: Guid(340a7317c7fc14c44b0da9a88eb38b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Goblins/halberd3.png using Guid(340a7317c7fc14c44b0da9a88eb38b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb867b036dfa8ff9b6ff2bf378ecde2') in 0.024279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Goblins/head.png
+  artifactKey: Guid(276bc9b387e84e24f9d543084b550a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Goblins/head.png using Guid(276bc9b387e84e24f9d543084b550a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44fc787502ca8f046f9532b8bff1982') in 0.011086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043221 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Panels/header_shadow 1.png
+  artifactKey: Guid(2163325f3474b884aa0dd5c632ec1b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Panels/header_shadow 1.png using Guid(2163325f3474b884aa0dd5c632ec1b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81728335089d9230f6611ae2ea91f6f4') in 0.029203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102221 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Stats/hp_bar_small_bg.png
+  artifactKey: Guid(932fcca12892a174d9ccc86bfa0c0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Stats/hp_bar_small_bg.png using Guid(932fcca12892a174d9ccc86bfa0c0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c32a644ad5d3453fe9d1a7a262374d3') in 0.023306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.540928 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_big_battle.png
+  artifactKey: Guid(91127d2e0e4513747a6f391435249035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_big_battle.png using Guid(91127d2e0e4513747a6f391435249035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a9588c36a31251529bd8f8e65d77f3') in 0.018413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017017 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_coin.png
+  artifactKey: Guid(2da3ecfedd0570c47911702560ffec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_coin.png using Guid(2da3ecfedd0570c47911702560ffec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79e461f3785a9dc2be01eff83449d6d') in 0.016346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_message.png
+  artifactKey: Guid(241796aa3609b974db9931e5af5f95f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_message.png using Guid(241796aa3609b974db9931e5af5f95f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ed9f2a171ca0bdb0c127c24ed32724') in 0.020973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_left.png
+  artifactKey: Guid(e01b3c63c692ef84587a3477f3435f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_left.png using Guid(e01b3c63c692ef84587a3477f3435f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b41cc0a450805b09160e79b7f0e3850') in 0.022890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395566 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_next.png
+  artifactKey: Guid(3d8f6d263b1312944a4729a4d53fd866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_next.png using Guid(3d8f6d263b1312944a4729a4d53fd866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4745015f5192cac262b343edfc9e02e5') in 0.025417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_profile.png
+  artifactKey: Guid(6d0270b1df03c074ba9350d1a5808c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_profile.png using Guid(6d0270b1df03c074ba9350d1a5808c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302d3a460f9f9cd85c88f133af97da61') in 0.029728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Animations/Crow/idle_1/idle_1_1.png
+  artifactKey: Guid(2d94a188e14c14f47be105e9dd81097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Animations/Crow/idle_1/idle_1_1.png using Guid(2d94a188e14c14f47be105e9dd81097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccedf57e4182525974d0de974256e102') in 0.011142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Animations/Crow/idle_1/idle_1_2.png
+  artifactKey: Guid(e16845eaf2b3d484d813b884f6cfd584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Animations/Crow/idle_1/idle_1_2.png using Guid(e16845eaf2b3d484d813b884f6cfd584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a7e8497789fd5d105e2a2809f5009b') in 0.011987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_prev.png
+  artifactKey: Guid(54cb35f8f555c55428661d8115d4cbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Icons/icon_small_prev.png using Guid(54cb35f8f555c55428661d8115d4cbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd874b28ef9afcae043d04079fadd0a') in 0.011313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.441228 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Animations/Crow/idle_1/idle_1_7.png
+  artifactKey: Guid(6020dca152fcd4046b136412bba0d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Animations/Crow/idle_1/idle_1_7.png using Guid(6020dca152fcd4046b136412bba0d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962077fa8869e60415d385d11c83487e') in 0.013367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Animations/Bird/idle_2/idle_2_2.png
+  artifactKey: Guid(03b3a102f13ba674a8cd3b03a25c7698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Animations/Bird/idle_2/idle_2_2.png using Guid(03b3a102f13ba674a8cd3b03a25c7698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53986238f4eb4ff9d3e9737685763c60') in 0.015163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435401 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Animations/Chicken/idle/idle_4.png
+  artifactKey: Guid(e717d73791052a44ca40b018d613b4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Animations/Chicken/idle/idle_4.png using Guid(e717d73791052a44ca40b018d613b4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f5e2bbebea885886ab798fca32b4dc') in 0.021806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Animations/Chicken/idle/idle_6.png
+  artifactKey: Guid(65b10f946c92eb04799fd02081d7dfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Animations/Chicken/idle/idle_6.png using Guid(65b10f946c92eb04799fd02081d7dfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507570090390e5f918e00652fb02ac5d') in 0.010106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199420 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boar/leg1_l.png
+  artifactKey: Guid(25a51bfaed89d114ba7648f356d4e86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/Enemy/Boar/leg1_l.png using Guid(25a51bfaed89d114ba7648f356d4e86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e4cdab74994203f49265f211c97b76') in 0.010171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.993627 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Chick/leg_l.png
+  artifactKey: Guid(f4f104553ffff2e4981356328081dd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Chick/leg_l.png using Guid(f4f104553ffff2e4981356328081dd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980d170519b979a0a4c27890e610f983') in 0.022312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Chick/leg_r.png
+  artifactKey: Guid(0b82ed61a155e244bb50b906921d980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/Chick/leg_r.png using Guid(0b82ed61a155e244bb50b906921d980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828d2f6ebe3a65da9f3c9c3405b10459') in 0.009840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/PSD/Levels_PSD.psd
+  artifactKey: Guid(164451efe39cce74fa9b4a3e1aef9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/PSD/Levels_PSD.psd using Guid(164451efe39cce74fa9b4a3e1aef9122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610e53f385929f51532df49ee04b4576') in 0.082656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Stats/loading_bar_fill.png
+  artifactKey: Guid(ef2e794d4a43e1141a0b175eeaa2830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Stats/loading_bar_fill.png using Guid(ef2e794d4a43e1141a0b175eeaa2830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87802b15d978ee6ab0e33420fa84b12a') in 0.009956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Settings/Slider Bar/loading_bar_frame.png
+  artifactKey: Guid(e77d9814723a0944d9ec675588012120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Settings/Slider Bar/loading_bar_frame.png using Guid(e77d9814723a0944d9ec675588012120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28304857e1e118acd05556fa4d79a89f') in 0.013081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.499560 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_1/Jump/npc1_fall.png
+  artifactKey: Guid(6c186e07d9cdb244ab1258adf5d4e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_1/Jump/npc1_fall.png using Guid(6c186e07d9cdb244ab1258adf5d4e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02de57ce82ee10a77d72184d9139bcd7') in 0.017891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.776331 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_1/Jump/npc1_rise.png
+  artifactKey: Guid(4d1de643b0602b04696716685a816fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_1/Jump/npc1_rise.png using Guid(4d1de643b0602b04696716685a816fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8e5ed5d3540dff2f7df3d556c21796') in 0.025502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_1/run/npc1_run_03.png
+  artifactKey: Guid(d5efe5c7e4e2df341b8a8e23d92cd23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_1/run/npc1_run_03.png using Guid(d5efe5c7e4e2df341b8a8e23d92cd23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d3f25440b524ab2519f0062953600a') in 0.019013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.363231 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_2/Jump/npc2_fall.png
+  artifactKey: Guid(2b89e538459ea374d90f8d0b358d70d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_2/Jump/npc2_fall.png using Guid(2b89e538459ea374d90f8d0b358d70d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e2c77da19025f3b4364e220c30f714') in 0.020145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_2/idle/npc2_idle_3.png
+  artifactKey: Guid(81037f5c4c54cb549a9036cbce4c0672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_2/idle/npc2_idle_3.png using Guid(81037f5c4c54cb549a9036cbce4c0672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172aa9150680b361d12c0dd4150e647c') in 0.057258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_2/run/npc2_run_08.png
+  artifactKey: Guid(127addf07576cfd48b6ed4f0629c4e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_2/run/npc2_run_08.png using Guid(127addf07576cfd48b6ed4f0629c4e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3602cd4a32e6d210bac1a8069ef47e') in 0.075402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_2/run/npc2_run_06.png
+  artifactKey: Guid(a40eaf01c51a0f548905c9edacc58514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_2/run/npc2_run_06.png using Guid(a40eaf01c51a0f548905c9edacc58514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7513fad4db7b3b7d2850f9c83af2fcb') in 0.014627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016789 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_3/Jump/npc3_rise.png
+  artifactKey: Guid(95aae77eda928954d8285572c141e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_3/Jump/npc3_rise.png using Guid(95aae77eda928954d8285572c141e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3140a8715bc4127712c1edbff8b28b3a') in 0.013852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013245 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/npc_bag_1.png
+  artifactKey: Guid(6afe58fd1b0623b448ae25370ab2d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/npc_bag_1.png using Guid(6afe58fd1b0623b448ae25370ab2d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f92b85292a0ed218755635417165d8b') in 0.017145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/npc_body_2.png
+  artifactKey: Guid(85907229640a47c40a3e7c079f067737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/npc_body_2.png using Guid(85907229640a47c40a3e7c079f067737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cb5cc85ff1744c549cc54263deca6d') in 0.012482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.385447 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/npc_leg_r.png
+  artifactKey: Guid(21a7eda0cf65a2b43ad9d0a46a315a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Separate graphic parts/NPC/npc_leg_r.png using Guid(21a7eda0cf65a2b43ad9d0a46a315a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce8112129ce498f8d390f401b415599') in 0.022019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.108712 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_Merchant/run/npc_merchant_run_00.png
+  artifactKey: Guid(94a24413ea5b1044f9f1c60854564a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_Merchant/run/npc_merchant_run_00.png using Guid(94a24413ea5b1044f9f1c60854564a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948b84881e6cd23c9292b3412762955f') in 0.016107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/NPC/NPC_Merchant/run/npc_merchant_run_05.png
+  artifactKey: Guid(976b0061200bbbd4681d9fde13935b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/NPC/NPC_Merchant/run/npc_merchant_run_05.png using Guid(976b0061200bbbd4681d9fde13935b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf486a82a93ebcfebe322353d0a61c39') in 0.016880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.880435 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/PSD
+  artifactKey: Guid(1995953375160304794954d92366369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/PSD using Guid(1995953375160304794954d92366369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f92b4709f799498396da2484f196cef') in 0.012856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065647 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/PSD/Defeat.psd
+  artifactKey: Guid(4e0e928e3d08c654a942b3c6e8042875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/PSD/Defeat.psd using Guid(4e0e928e3d08c654a942b3c6e8042875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264f9fb44e2f40b06fa1f146ee4cb8e1') in 0.074514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/PSD/Stats.psd
+  artifactKey: Guid(ec522ab650531924688cfc353847d2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/PSD/Stats.psd using Guid(ec522ab650531924688cfc353847d2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f34ce6b6eac1ed1fc58f009005ed40') in 0.074186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.497663 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Font/Acme-Regular.ttf
+  artifactKey: Guid(c61f047ba030bf944ae31adfb7b1ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Font/Acme-Regular.ttf using Guid(c61f047ba030bf944ae31adfb7b1ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24726d0452d39143743dfd074dd57596') in 0.053453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.173878 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Textbox
+  artifactKey: Guid(a1aaa3ecdb9d5c241b1fc5dd371fa776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Textbox using Guid(a1aaa3ecdb9d5c241b1fc5dd371fa776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372e5f35aae8c99057cceff6f61cb00') in 0.002032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057259 seconds.
+  path: Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Textbox/textbox.png
+  artifactKey: Guid(6a236c12845144a4cb706f444db8bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Simple UI Pack/Sprites/Textbox/textbox.png using Guid(6a236c12845144a4cb706f444db8bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279ae965b8c6ac46c315ba82edee51a5') in 0.025873 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

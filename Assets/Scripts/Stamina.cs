@@ -39,13 +39,12 @@ public class Stamina : MonoBehaviour
         if(change==true)
         {
             Discharge();
-          //  StartCoroutine(Discharge());
         }
 
         else if (change == false )
         {
             StartCoroutine(Charge());
-           // Charge();
+           
         }
     }
 
@@ -77,22 +76,4 @@ public class Stamina : MonoBehaviour
             current_stamina = 0f;
         }
     }
-
-    //private IEnumerator Discharge()
-    //{
-
-    //        yield return new WaitForSeconds(1);
-    //    current_stamina = current_stamina - 0.02f;
-    //         yield return new WaitForSeconds(0.4f);
-
-
-    //}
-
-    //private IEnumerator Charge()
-    //{
-    //    yield return new WaitForSeconds(1);
-    //    current_stamina = current_stamina + 0.02f;
-    //    yield return new WaitForSeconds(0.4f);
-
-    //}
 }

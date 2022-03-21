@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Coin
   - Trap
+  - Heart
+  - ShedDoorIn
+  - ShedDoorOut
   layers:
   - Default
   - TransparentFX
@@ -15,11 +18,11 @@ TagManager:
   - Water
   - UI
   - background
-  - foreground
+  - ground
   - player
   - Trap
-  - 
-  - 
+  - Enemy
+  - foreground
   - 
   - 
   - 

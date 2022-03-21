@@ -6,58 +6,64 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private float starting_health;
     public float current_health { get; private set; }
+    public float counterImpact { get; private set; }
 
 
     [SerializeField] private float iFramesDuration;
     [SerializeField] private int numOfFlashes;
     private SpriteRenderer mySprite;
-    private Animator myAnim;
+    [SerializeField] private Animator myAnim;
+    private bool isDead;
+    //public GameObject blood;
     
 
     void Awake()
     {
         current_health = starting_health;
-        mySprite=GetComponent<SpriteRenderer>();
+        counterImpact = 0;
+        mySprite =GetComponent<SpriteRenderer>();
         myAnim = GetComponent<Animator>();
+        isDead = false;
     }
 
 
-    void Update()
-    {
-        damage();
-       
-    }
+
 
     public void take_damage(float _damage)
     {
         current_health = Mathf.Clamp(current_health - _damage, 0, starting_health);
+     /*   if (this.gameObject.tag == "Player" && current_health > 0)
+        {
+            Instantiate(blood, transform.position, Quaternion.identity);
+        }*/
 
         if (current_health > 0)
         {
-            
+            counterImpact++;
             StartCoroutine(Invunerability());
         }
-        else
+        else if(!isDead)
         {
-            myAnim.SetTrigger("isDead");
+            counterImpact++;
+            isDead = true;
+            myAnim.SetTrigger("isDie");
             StartCoroutine(beforeDead());
-           
+
         }
     }
 
-    private void damage()
+    public void increaseHealth()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (current_health < starting_health)
         {
-            take_damage(1);
+            current_health++;
         }
     }
 
 
-
-    private IEnumerator Invunerability()
+   private IEnumerator Invunerability()
     {
-        //Physics2D.IgnoreLayerCollision(8, 9, true);
+        
         for (int i = 0; i < numOfFlashes; i++)
         {
             mySprite.color = new Color(1, 0, 0, 0.5f);
@@ -65,12 +71,13 @@ public class Health : MonoBehaviour
             mySprite.color = Color.white;
             yield return new WaitForSeconds(iFramesDuration / (numOfFlashes * 2));
         }
-     //   Physics2D.IgnoreLayerCollision(8, 9, false);
+     
     }
 
-    private IEnumerator beforeDead()
+   private IEnumerator beforeDead()
     {
-         yield return new WaitForSeconds(1);
+        
+         yield return new WaitForSeconds(3);
         Destroy(this.gameObject);
 
     }
